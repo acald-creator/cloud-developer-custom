@@ -7,7 +7,7 @@ import { STATUS_CODES } from 'http';
 (async () => {
   let cars:Car[]  = cars_list;
 
-  //Create an express applicaiton
+  //Create an express application
   const app = express(); 
   //default port to listen
   const port = 8082; 
