@@ -4,13 +4,8 @@
   "description": "Udagram, a simple Express app",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "test": "mocha",
-    "clean": "rm -rf www/ || true",
-=======
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf www/ || true",
->>>>>>> 309a9070500de06cb475d0013498a5e3c680de15
     "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
     "dev": "ts-node-dev ./src/server.ts"
   },
